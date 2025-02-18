@@ -78,7 +78,7 @@ export default function SignInScreen() {
 
       <TouchableOpacity 
         className="w-full flex items-center justify-center bg-secondary rounded-lg py-4 mt-6 h-20" 
-        onPress={() => router.push("/(tabs)/profile")}
+        onPress={() => router.push("/(features)/transactions")}
       >
         <Text className="text-center text-black font-pbold text-xl">
           Sign In
